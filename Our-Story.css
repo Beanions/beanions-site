@@ -114,7 +114,7 @@
 }
 
 .u-section-2 .u-countdown-1 {
-  margin: 77px auto 0;
+  margin: 77px auto 0 258px;
 }
 
 .u-section-2 .u-countdown-item-1 {
@@ -265,6 +265,18 @@
   padding: 13px 53px 14px 52px;
 }
 
+@media (max-width: 1199px) {
+  .u-section-2 .u-countdown-1 {
+    margin-left: 58px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-countdown-1 {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
     min-height: 684px;
@@ -272,7 +284,6 @@
 
   .u-section-2 .u-countdown-1 {
     height: 275px;
-    margin-left: 0;
     margin-right: 0;
   }
 }
