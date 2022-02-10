@@ -369,8 +369,8 @@
 .u-section-3 .u-social-icons-1 {
   height: 32px;
   min-height: 16px;
-  width: 158px;
-  min-width: 94px;
+  width: 200px;
+  min-width: 120px;
   margin: 60px auto;
 }
 
@@ -389,4 +389,9 @@
 
 .u-section-3 .u-icon-4 {
   height: 0;
+}
+
+.u-section-3 .u-icon-5 {
+  height: 100%;
+  color: rgb(197, 54, 164) !important;
 }
